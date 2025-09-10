@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HikVision/static/css/main.a319f6e7.css",
-    "main.js": "/HikVision/static/js/main.14a5e87e.js",
+    "main.js": "/HikVision/static/js/main.41395453.js",
     "static/js/453.52b41768.chunk.js": "/HikVision/static/js/453.52b41768.chunk.js",
     "static/media/categoryimg.png": "/HikVision/static/media/categoryimg.4690f9847fa3f2fca20d.png",
     "static/media/caorusel2.jpg": "/HikVision/static/media/caorusel2.08db5309dc3e6b37421e.jpg",
@@ -26,11 +26,11 @@
     "static/media/dropdown_icon.svg": "/HikVision/static/media/dropdown_icon.114f3fc15e7da7668de93c7b8036a3c3.svg",
     "index.html": "/HikVision/index.html",
     "main.a319f6e7.css.map": "/HikVision/static/css/main.a319f6e7.css.map",
-    "main.14a5e87e.js.map": "/HikVision/static/js/main.14a5e87e.js.map",
+    "main.41395453.js.map": "/HikVision/static/js/main.41395453.js.map",
     "453.52b41768.chunk.js.map": "/HikVision/static/js/453.52b41768.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a319f6e7.css",
-    "static/js/main.14a5e87e.js"
+    "static/js/main.41395453.js"
   ]
 }
