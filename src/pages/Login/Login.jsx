@@ -19,7 +19,7 @@ const Login = () => {
         <div className='w-1/2 h-[90vh]'>
           <img src={assets.cctv} alt='pic' className='w-full h-full object-cover' />
         </div>
-        
+
         <div className='w-1/2 h-[90vh] flex justify-center items-center bg-[#EEEEEE]'>
           <div className=''>
             <h1 className='text-3xl font-inria'>Hello,<span className='font-semibold'> Welcome Back!</span> </h1>
@@ -31,14 +31,14 @@ const Login = () => {
 
                 <div className='flex flex-row'>
                   <select value={countryCode} onChange={(e) => setCountryCode(e.target.value)} className='w-[70px] p-2 rounded-bl-md rounded-tl-md border border-[#D9D9D9]'>
-                    <option value="+91">+91 🇮🇳</option>
-                    <option value="+1">+1 🇺🇸</option>
-                    <option value="+44">+44 🇬🇧</option>
-                    <option value="+61">+61 🇦🇺</option>
+                    <option value="+91">+91 India</option>
+                    <option value="+1">+1 United States</option>
+                    <option value="+44">+44 United Kingdom</option>
+                    <option value="+61">+61 Australia</option>
                   </select>
                   <input type='tel' onChange={(e) => setNumber(e.target.value)} value={number} className='w-[300px] p-2 rounded-br-md rounded-tr-md border border-[#D9D9D9]'></input>
                 </div>
-                
+
               </div>
 
               <div>
