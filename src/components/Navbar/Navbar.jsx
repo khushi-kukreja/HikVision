@@ -84,10 +84,10 @@ const Navbar = () => {
 
         <ul className='flex flex-col gap-6 text-lg font-instrument bg-inherit text-center p-3'>
           <Link to="/" onClick={() => setShowMenu(false)}>Home</Link>
-          <li>Service</li>
+          {/* <li>Service</li> */}
           <Link to="/setup" onClick={() => setShowMenu(false)}>Setup</Link>
-          <li>Categories</li>
-          <li>Support</li>
+          <Link to='/category'>Categories</Link>
+          {/* <li>Support</li> */}
         </ul>
       </div>
     </div>
