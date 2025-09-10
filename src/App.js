@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/footer/Footer';
+import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup'
+import Setup from './pages/setup/Setup';
+import SetupAmount from './pages/setupamount/SetupAmount';
+import Category from './pages/Category/Category';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+
+      <Navbar />
+
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/login' element={<Login />}></Route>
+        <Route path='/signup' element={<Signup />}></Route>
+        <Route path='/setup' element={<Setup />}></Route>
+        <Route path='/setup/:type' element={<Setup/>}></Route>
+        <Route path='/setup/id/:setupID' element={<SetupAmount/>}></Route>
+        <Route path='/category' element={<Category/>} ></Route>
+        <Route path='/category/:type' element={<Category />}></Route>
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
