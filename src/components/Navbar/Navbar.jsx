@@ -50,8 +50,9 @@ const Navbar = () => {
 
         </div>
 
-        <ul className='flex gap-6 list-none font-instrument items-center tracking-wider'>
+        <ul className='flex gap-10 list-none font-instrument items-center tracking-wider'>
           {/* <li className='hidden md:block'>Support</li> */}
+          <Link to='/contactus' className='hidden md:block'>About & Policy</Link>
           <li
             className='flex gap-2 items-center relative'
             onMouseEnter={() => setDropdownVisible(true)}
@@ -87,7 +88,7 @@ const Navbar = () => {
           {/* <li>Service</li> */}
           <Link to="/setup" onClick={() => setShowMenu(false)}>Setup</Link>
           <Link to='/category'>Categories</Link>
-          {/* <li>Support</li> */}
+          <Link to='/contactus'>About & Policy</Link>
         </ul>
       </div>
     </div>

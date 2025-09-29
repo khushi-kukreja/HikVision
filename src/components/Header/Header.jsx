@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { assets, Carousel } from '../../assets/assets';
+import {  Carousel } from '../../assets/assets';
 
 const Header = () => {
     const [current, setCurrent] = useState(0);

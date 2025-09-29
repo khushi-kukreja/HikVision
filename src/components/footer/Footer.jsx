@@ -65,22 +65,22 @@ const Footer = () => {
                         </div>
 
                         <div className='flex flex-row gap-5'>
-                            <a href="#">
+                            <a href="/">
                                 <div className='w-12 h-12 rounded-full bg-stone-700 flex items-center justify-center'>
                                     <i className='fab fa-facebook-f text-white text-[22px]'></i>
                                 </div>
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <div className='w-12 h-12 rounded-full bg-stone-700 flex items-center justify-center'>
                                     <i className='fab fa-instagram text-white text-[22px]'></i>
                                 </div>
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <div className='w-12 h-12 rounded-full bg-stone-700 flex items-center justify-center'>
                                     <i className='fab fa-twitter text-white text-[22px]'></i>
                                 </div>
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <div className='w-12 h-12 rounded-full bg-stone-700 flex items-center justify-center'>
                                     <i className='fab fa-youtube text-white text-[20px]'></i>
                                 </div>

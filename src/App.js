@@ -9,6 +9,7 @@ import Signup from './pages/Signup/Signup'
 import Setup from './pages/setup/Setup';
 import SetupAmount from './pages/setupamount/SetupAmount';
 import Category from './pages/Category/Category';
+import ContactUs from './pages/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/setup/id/:setupID' element={<SetupAmount/>}></Route>
         <Route path='/category' element={<Category/>} ></Route>
         <Route path='/category/:type' element={<Category />}></Route>
+        <Route path='/contactus' element={<ContactUs />}></Route>
       </Routes>
       <Footer />
     </>

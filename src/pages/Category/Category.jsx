@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
-import { categoryProducts, cctvProducts } from '../../assets/assets';
+import { categoryProducts } from '../../assets/assets';
 
 
 const Category = () => {
